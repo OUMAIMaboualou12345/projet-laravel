@@ -1,0 +1,86 @@
+:root{
+    --primary:#687966;
+    --primary2:#9CB8A8;
+    --primary3:#95cfb2;
+    --white: #fff;
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+}
+table {
+    position: absolute;
+    border-collapse: collapse;
+    border: 1px solid #bdc3c7;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    font-size: large;
+    color: #fff;
+}
+
+tr {
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+
+th,td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #0c0c0c;
+    height: 20px;
+    border-right: #acb3b3 2px solid;
+    color: #0c0c0c;
+}
+
+#header {
+    background-color: var(--primary);
+    /* border-radius: 100px;
+    color: #95cfb2; */
+}
+#tbody{
+    border: #8bac87 solid;
+    
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+    transform: scale(1.02);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    color: var(--primary);
+}
+.SaveBTN {
+    
+    
+    border: 1px solid #eee;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #000000;
+    text-shadow: none;
+    height: 34px;
+    width: 70px;
+}
+
+.SaveBTN:hover {
+
+    border: 1px solid #eee;
+    border-radius: 5px;
+    text-shadow: none;
+    height: 34px;
+    width: 70px;
+}
+.SaveBTND {
+
+    border: 1px solid #eee;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #000000;
+    text-shadow: none;
+    height: 34px;
+    width: 70px;
+    margin-left: 16px;
+}
+
+.SaveBTND:hover {
+
+    border: 1px solid #eee;
+    border-radius: 5px;
+    text-shadow: none;
+    height: 34px;
+    width: 70px;
+}
+

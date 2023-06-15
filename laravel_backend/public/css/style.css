@@ -1,0 +1,59 @@
+a{
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+  .lien{
+    
+      margin-top: 30px;
+      margin-left: 850px;
+  }
+  .lien a{
+     
+      color:red;
+      text-decoration: none;
+  
+  }
+  .lien a:hover{
+     
+      color:red;
+      text-decoration: underline;
+      
+  }
+  ul.menuH{
+    list-style-type: none;
+    text-align: center;
+    margin-left: 0px;
+    padding:0px;
+   
+  }
+  ul.menuH li a{
+      height:50px;
+      border: 1px solid burlywood;
+      display: block;
+      line-height: 50px;
+      margin-top: 5px;
+    }
+  div.footer
+  {
+      height:80px;
+  }
+  span.footerText
+    {
+      text-align: center;
+      display: block;
+      font-style: italic;
+      font-weight: bold;
+      line-height: 80px;
+  }
+  .titre{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    display: block;
+    text-decoration: underline;
+    margin-bottom: 10px;
+  }
+  

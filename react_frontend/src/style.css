@@ -1,0 +1,165 @@
+/* .list-group a:hover{
+    background-color: #d5e9d1;
+    color: #0f8b03;
+    cursor: pointer;
+} */
+/* .list-group{
+    background-color: #25691f;
+} */
+*{
+    cursor: pointer;
+    font-family:sans-serif;
+    /* background: linear-gradient(45deg, #410358 , #4700bc); */
+}
+.btnsherch{
+    margin-left: 5px;
+}
+.pagination{
+    display: flex;
+    align-items: center;
+    background: #687966;;
+    color: #383838;
+    padding: 10px 10px;
+    border-radius: 100px;
+}
+.h1-list{
+    margin-left: 25%;
+}
+
+.nav-link{
+    color: #6ac0cf;
+}
+.nav-link:hover{
+    color: #18ad2c;
+}
+.namelogo{
+    color: #3193b9;
+}
+.page-item{
+    border-radius: 100px;
+    color: crimson;
+}
+.page-link{
+    border-radius: 30px;
+    color: crimson;
+}
+.card-img{
+    border-radius: 100%;
+}
+.card-title{
+    justify-content: center;
+    color: #afc52f;
+}
+
+.collon{
+    background-color: #d0dfce;
+}
+
+/* .list-group{
+    background-color: #bbe7b7;
+} */
+/* .container-fluid{
+    background-color: #f8f4f4;
+} */
+/* .navbar{
+    background-color: #476847;
+    color: #1c1d1c;
+} */
+/* .nav-link:hover{
+    background-color: #cdf8c4;
+    color: #c4cf2d;
+}
+.nav-link{
+    background-color: #cdf8c4;
+    color: #c4cf2d;
+} */
+.justify-content-center-pro{
+    margin-left: 500px;
+}
+.list{
+    background-color: rgb(194, 245, 194);
+}
+table{
+    border: #000000 solid;
+    /* background-color: #5fb482ad; */
+    background-color: #e5e7de;
+}
+.navbar-brand{
+    color: #176e14;
+    margin-right: 8cm;
+}
+.navbar-brand:hover{
+    color: #176e14;
+    cursor: pointer;
+}
+/* .cart{
+    color: #50e976;
+    background-color:;  
+   } */
+footer{
+    background-color: #9cc79c; 
+}
+.bg-{
+    color: #0f0f0f;
+    background-color: #e1e7e1;   
+    /* background-color: #a6be63;
+     color: #c4cf2d;
+     background-color: #111111; */
+}
+.bg--{
+    color: #0f0f0f;
+    background-color: #e1e7e1;  
+    
+}
+.bgcheckbox{
+    background-color: #e1e7e1; 
+    color: #0f0f0f;
+}
+.btn-add{
+    color: #000000;
+    background-color:#0f5e23;
+}
+.btn-add:hover{
+    color: #03571f;
+    background-color:#070707;
+}
+input{
+    background-color: #cdf8c4;
+    border-radius: 5%;
+    cursor: pointer;
+}
+select{
+    background-color: #cdf8c4;
+    
+}
+.logout{
+    cursor: pointer;
+}
+.cart:hover{
+    color: #0c0c0c;
+    background-color: #6F87; 
+    /* color: #02751e;
+    background-color: #aec56f;  */
+}
+.orange{
+    color: rgb(255, 243, 79);
+    font-weight: bold;
+}
+.icon{
+    font-size: 20px;
+}
+.btnAdd{
+    position: relative;
+    left: 149px;
+    top: 15px;
+}
+.pagination{
+    cursor: pointer;
+}
+input:hover{
+    border: #02751e solid 2px;
+}
+input{
+    border: #0f8b03 solid 2px;
+    box-shadow: #000000;
+}

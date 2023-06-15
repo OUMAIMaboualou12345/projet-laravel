@@ -1,0 +1,219 @@
+/* .App {
+  text-align: center;
+}
+
+.tableAffichage,th,tr,td{
+  border:1px solid black  ;
+ border-collapse: collapse;
+
+}
+.tableAffichage{
+  margin-left: 200px;
+  margin-top: 20px;
+  text-align: center;
+  
+}
+.tableAffichage2{
+  margin-left: 320px;
+  margin-top: 20px;
+  text-align: center;
+  
+}
+th{
+  background-color: #cc70df;
+  color: rgb(37, 37, 37);
+  font-family: cursive;
+  padding: 20px;
+}
+
+ td {
+  padding: 15px;
+  color: rgb(10, 10, 10);
+  background-color: rgb(10, 165, 185);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+span{
+  color:rgb(20, 221, 80)
+}
+.btn{
+  margin-right: 30px;
+  background-color:rgb(161, 247, 48);
+  border-radius: 10px;
+}
+.btn:hover{
+  background-color: rgb(91, 186, 230);
+
+}
+
+.btnRet{
+  background-color: rgb(135, 212, 11);
+  border-radius: 200px;
+  
+}
+.nom{
+  background-color: rgb(27, 175, 64);
+  margin-left: 500px;
+  margin-top: 50px;
+  border-radius: 20px;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 20px;
+
+}
+.autho{
+  background-color:#cc70df;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: grid;
+  width: 400px;
+  margin-left: 30%;
+  margin-top: 4%;
+}
+.autho1{
+  background-color:#cc70df;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 400px;
+  display: grid;
+  margin-left: 30%;
+  margin-top: 4%;
+}
+i{
+  color: rgb(197, 14, 121);
+  margin-right: 200px;
+  
+} */
+/***    General     ***/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif
+}
+
+body {
+  margin: 0 auto
+}
+
+.m-5-auto {
+  margin: 5rem auto
+}
+
+.primary-button {
+  margin-top: 5rem;
+  margin-right: 1rem;
+  padding: .6rem;
+  width: 10rem;
+  background: #25a5b6;
+  border: none;
+  color: #000000;
+  font-size: 1.2rem;
+  transition: all .5s;
+  cursor: pointer;
+  text-transform: capitalize
+}
+
+/***    welcome Page     ***/
+/* .main-title,
+.main-para {
+  
+} */
+
+.main-title {
+  padding-top: 5rem;
+  font-size: 5rem;
+  font-family: 'Fascinate', cursive;
+  color: #ffffff;
+  text-transform: uppercase
+}
+
+.main-para {
+  font-size: 2.5rem;
+  color: #326e32;
+  text-Transform: capitalize;
+ 
+}
+.buttons{
+  padding-top: 5rem;
+}
+#log_btn span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#log_btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#log_btn:hover span {
+padding-right: 25px;
+}
+
+#log_btn:hover span:after {
+opacity: 1;
+right: 0;
+}
+
+/***    Login Page     ***/
+h2 {
+  font-weight: 300
+}
+
+.formulaire {
+  display: inline-block;
+  background: #b6b6b4;
+  border: 2px solid #ffc107;
+  border-radius: 10px;
+  padding: 5rem;
+  margin: 5rem 0 1rem 0;
+}
+
+.formulaire input{
+  border: 2px solid #ffc107;
+  background-color: #f5f1f1;
+   width: 25rem;
+  padding: .4rem;
+  border-radius: 12px;
+  
+  
+}
+
+#sub_btn {
+  display: block;
+  width: 100%;
+  padding: .3rem;
+  border: none;
+  background: #222222;
+  color: #fff;
+  border-radius: 3px;
+}
+
+#sub_btn:hover {
+  background: #3fa71f;
+  
+}
+
+.textLogin{
+  color: #ffc107;
+}
+.back{
+  margin-right: 100px;
+}
+/***    Home Page     ***/
+.home-page-title {
+  color: #222
+}
